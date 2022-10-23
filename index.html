@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MCO</title>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./font/style.css">
+    <script type='text/javascript'
+  src='http://code.jquery.com/jquery-1.9.1.js'></script>
+
+  <link rel="shortcut icon" type="image/png" href="./icon.png"/>
+  <br>
+<a>MCOIN : <a id="coin"></a><a>$</a></a>
+
+
+<script type="text/javascript">
+
+              let a = 0;
+              let b = 0;
+              let c = 0;
+              let d = 0;
+
+              let diament = 0;
+              let emeraude = 0;
+              let fer = 0;
+              let or = 0;
+
+              let coin = 0;
+
+  
+            function changeImg(path){
+              
+               var i = parseInt(Math.random() * 4) + 1;
+
+               if(i == 1){
+
+               a ++;
+               coin = coin + 500;
+               diament ++;
+               $(".menu-deroulant .a").css("opacity", "1");
+               document.getElementById("a").innerHTML=a;
+               document.getElementById("coin").innerHTML=coin;
+              
+
+
+               $(".menu-deroulantt .diament").click(function(){
+                $(".menu-deroulantt .diament").css("opacity", "1");
+                  document.getElementById("diament").innerHTML=0 + a;
+
+
+                  document.getElementById("a").innerHTML=a - a;
+
+
+               });
+               
+                    
+                
+                  return path + i + '.png';}
+
+               if(i == 2){
+
+              coin = coin + 300;
+              b ++;
+              emeraude ++;
+               $(".menu-deroulant .b").css("opacity", "1");
+               document.getElementById("b").innerHTML=b;
+                document.getElementById("coin").innerHTML=coin;
+
+
+
+
+               $(".menu-deroulantt .emeraude").click(function(){
+                $(".menu-deroulantt .emeraude").css("opacity", "1");
+                  document.getElementById("emeraude").innerHTML= 0 + b;
+
+                  document.getElementById("b").innerHTML=b - b;
+               });
+              
+                    
+                
+                  return path + i + '.png';}
+               if(i == 3){
+                coin = coin + 50;
+                c ++;
+                fer ++;
+               $(".menu-deroulant .c").css("opacity", "1");
+               document.getElementById("c").innerHTML=c;
+                document.getElementById("coin").innerHTML=coin;
+
+
+               $(".menu-deroulantt .fer").click(function(){
+                $(".menu-deroulantt .fer").css("opacity", "1");
+                  document.getElementById("fer").innerHTML= 0 + c;
+
+                  document.getElementById("c").innerHTML=c - c;
+               });
+               
+               
+                
+                  return path + i + '.png';}
+
+                if(i == 4){
+              coin = coin + 200;
+              d ++;
+              or ++;
+               $(".menu-deroulant .d").css("opacity", "1");
+               document.getElementById("d").innerHTML=d;
+                document.getElementById("coin").innerHTML=coin;
+
+
+
+               $(".menu-deroulantt .or").click(function(){
+                $(".menu-deroulantt .or").css("opacity", "1");
+                  document.getElementById("or").innerHTML= 0 + d;
+
+                  document.getElementById("d").innerHTML=d -d;
+               });
+               
+                  
+                       
+                  return path + i + '.png';}
+
+
+}
+
+            
+        </script>
+
+
+
+<ul class="menu-deroulant">
+  <li><a>Inventory</a>
+
+    <br>
+    <br>
+    <ul>
+      <li><img class="a" src="./block/1.png"><a id="a"></a></img></li>
+      <li><img class="b" src="./block/2.png"><a id="b"></a></img></li>
+      <li><img class="c" src="./block/3.png"><a id="c"></a></img></li>
+      <li><img class="d" src="./block/4.png"><a id="d"></a></img></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+<ul class="menu-deroulantt">
+  <li><a>Furnase</a>
+  <br>
+    <br>
+    <ul>
+      <li><img class="diament" src="./minerai/1.png"><a id="diament"></a></img></li>
+      <li><img class="emeraude" src="./minerai/2.png"><a id="emeraude"></a></img></li>
+      <li><img class="fer" src="./minerai/3.png"><a id="fer"></a></img></li>
+      <li><img class="or" src="./minerai/4.png"><a id="or"></a></img></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<center><h1>Minecraft Chest Openning</h1></center>
+
+
+ <br>
+ <br>
+ <br>
+
+
+</head>
+<body>
+
+<center><p>Starter Pack</p></center>
+
+
+<center><img class="coffre" id="img" src="./coffre.png" width="100" height="100"/></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center><input class="open" type="button" value="Open" onclick="document.getElementById('img').src=changeImg('./block/');"></center>
+
+
+
+
+
+
+
+
+
+
+  <!--    <button onclick="setTimeout(sayHello, 4000);">Cliquez ici</button>
+      <script>
+         function sayHello() {
+           alert('Hello');
+         }
+      </script>
+-->
+
+
+
+</body>
+</html>

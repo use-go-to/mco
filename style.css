@@ -1,0 +1,347 @@
+body {
+	background-color: #171615 ;
+}
+
+
+
+
+
+
+
+ .menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    
+}
+.menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: left;
+    opacity: 0;
+}
+.menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+    opacity: 0;
+    
+}
+.menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+    background-color: #383838;
+    opacity: 0;
+}
+.menu-deroulant img {
+    text-decoration: none;
+    display: block;
+  color:#000;
+  opacity: 0;
+}
+.menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+    opacity: 0;
+}
+.menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.a{
+	opacity: 0;
+background-color: #b1b1b1;
+
+  
+}
+
+.b{
+	background-color: #b1b1b1;
+  opacity: 0;
+}
+
+.c{
+	background-color: #b1b1b1;
+  opacity: 0;
+}
+
+.d{
+	background-color: #b1b1b1;
+  opacity: 0;
+}
+
+
+
+.diament{
+background-color: #b1b1b1;
+  opacity: 1;
+}
+
+.emeraude{
+	background-color: #b1b1b1;
+  opacity: 1;
+}
+
+.fer{
+	background-color: #b1b1b1;
+  opacity: 1;
+}
+
+.or{
+	background-color: #b1b1b1;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+a{
+	color: #a0e080;
+	background-color: #7a7a7a;
+	padding: 10px; 
+	border-radius: 5px;
+	border: solid;
+}
+
+a:hover {
+  color:#fff;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+	color: #a0e080;
+	background-color: black;
+	padding: 10px; 
+	text-align: right;
+	position: absolute;
+
+
+}
+
+h3:hover {
+  color:#fff;
+ }
+
+h1 {
+	color: #fff ;
+	font-family: 'Minecraft Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.open {
+	background: #3b8526;
+box-shadow: inset 0 4px #6bc349,inset 0 -4px #2a631c,0 4px rgb(0 0 0 / 25%);
+color: #fff;
+text-shadow: 0 1px 0 #2a631c;
+padding: 15px 24px;
+border: none;
+font-size: 1.125rem;
+line-height: 20px;
+font-weight: 700;
+letter-spacing: .03em;
+text-transform: uppercase;
+text-decoration: none;
+transition: all .25s,opacity .75s .5s;
+font-family: 'Noto Sans';
+
+}
+ 
+.open:hover {
+ transition:all .25s,opacity .75s .5s;
+ background-image:linear-gradient(#8d8e92,#e7eaef);
+ color:#252525;
+ text-shadow:0 -1px 0 #e7eaef;
+ box-shadow:inset 0 -2px #e7eaef,inset 0 2px #8d8e92;
+ border-bottom:solid transparent
+}
+
+.coffre {
+	background-color: #383838;
+}
+
+p {
+	color: #cbcbcb ;
+	font-family: 'Minecraft Bold Italic';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-deroulantt, #menu-deroulantt ul {
+
+    
+}
+.menu-deroulantt {
+/* on centre le menu dans la page */
+    
+}
+.menu-deroulantt li {
+/* on place les liens du menu horizontalement */
+      
+
+    
+}
+.menu-deroulantt ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+display: block;
+    background-color: #515151;
+    padding: 15px;
+
+    border: 4mm ridge rgba(21, 220, 50, .6);
+    border-radius: 10px;
+
+   
+
+    
+}
+.menu-deroulantt img {
+	border-radius: 10px;
+    text-decoration: none;
+    display: block;
+  color:white;
+}
+.menu-deroulantt ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+}
+.menu-deroulantt li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+text-align: center;
+left: -10px;
+    
+}
+
+
+
+
+#diament {
+	border-radius: 10px;
+	background-color: #3c3c3c;
+	color: white;
+}
+
+#emeraude {
+	border-radius: 10px;
+	background-color: #3c3c3c;
+	color: white;
+}
+
+#fer {
+	border-radius: 10px;
+	background-color: #3c3c3c;
+	color: white;
+}
+
+#or {
+	border-radius: 10px;
+	background-color: #3c3c3c;
+	color: white;
+}
+
+
+.menu-deroulanttt, #menu-deroulanttt ul {
+
+    
+}
+.menu-deroulanttt {
+/* on centre le menu dans la page */
+ text-align: right;
+    
+}
+.menu-deroulanttt li {
+/* on place les liens du menu horizontalement */
+      
+
+    
+}
+.menu-deroulanttt ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+display: block;
+    background-color: #515151;
+    padding: 15px;
+
+    border: 4mm ridge rgba(21, 220, 50, .6);
+    border-radius: 10px;
+
+   
+
+    
+}
+.menu-deroulanttt img {
+	border-radius: 10px;
+    text-decoration: none;
+    display: block;
+  color:white;
+}
+.menu-deroulanttt ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+}
+.menu-deroulanttt li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+text-align: center;
+left: 20;
+    
+}
